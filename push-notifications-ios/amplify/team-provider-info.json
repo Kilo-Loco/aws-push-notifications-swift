@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pushnotificationsios-dev-103659-authRole",
+      "UnauthRoleArn": "arn:aws:iam::088987693321:role/amplify-pushnotificationsios-dev-103659-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::088987693321:role/amplify-pushnotificationsios-dev-103659-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-pushnotificationsios-dev-103659-deployment",
+      "UnauthRoleName": "amplify-pushnotificationsios-dev-103659-unauthRole",
+      "StackName": "amplify-pushnotificationsios-dev-103659",
+      "StackId": "arn:aws:cloudformation:us-west-2:088987693321:stack/amplify-pushnotificationsios-dev-103659/3cc46c40-1c71-11eb-b3cb-06302590af85",
+      "AmplifyAppId": "d26gdjak2yayky"
+    },
+    "categories": {
+      "auth": {
+        "cognito28859193": {}
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "pushnotificationsiosbuAeK-dev",
+          "Id": "85e189228dd148d49ed993644e7dcb35",
+          "Region": "us-west-2"
+        }
+      }
+    }
+  }
+}

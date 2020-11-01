@@ -1,0 +1,24 @@
+# this is an auto generated file. This will be overwritten
+query GetNotification($id: ID!) {
+  getNotification(id: $id) {
+    id
+    deviceToken
+    createdAt
+    updatedAt
+  }
+}
+query ListNotifications(
+  $filter: ModelNotificationFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listNotifications(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      deviceToken
+      createdAt
+      updatedAt
+    }
+    nextToken
+  }
+}

@@ -1,0 +1,25 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateNotification {
+  onCreateNotification {
+    id
+    deviceToken
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateNotification {
+  onUpdateNotification {
+    id
+    deviceToken
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteNotification {
+  onDeleteNotification {
+    id
+    deviceToken
+    createdAt
+    updatedAt
+  }
+}

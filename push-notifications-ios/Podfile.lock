@@ -1,0 +1,64 @@
+PODS:
+  - Amplify (1.4.0):
+    - Amplify/Default (= 1.4.0)
+  - Amplify/Default (1.4.0)
+  - AmplifyPlugins/AWSAPIPlugin (1.4.0):
+    - AppSyncRealTimeClient (~> 1.4.0)
+    - AWSCore (~> 2.18.0)
+    - AWSPluginsCore (= 1.4.0)
+    - ReachabilitySwift (~> 5.0.0)
+  - AppSyncRealTimeClient (1.4.1):
+    - Starscream (~> 3.1.0)
+  - AWSAuthCore (2.18.0):
+    - AWSCore (= 2.18.0)
+  - AWSCognitoIdentityProvider (2.18.0):
+    - AWSCognitoIdentityProviderASF (= 2.18.0)
+    - AWSCore (= 2.18.0)
+  - AWSCognitoIdentityProviderASF (2.18.0)
+  - AWSCore (2.18.0)
+  - AWSMobileClient (2.18.0):
+    - AWSAuthCore (= 2.18.0)
+    - AWSCognitoIdentityProvider (= 2.18.0)
+    - AWSCognitoIdentityProviderASF (= 2.18.0)
+    - AWSCore (= 2.18.0)
+  - AWSPluginsCore (1.4.0):
+    - Amplify (= 1.4.0)
+    - AWSCore (~> 2.18.0)
+    - AWSMobileClient (~> 2.18.0)
+  - ReachabilitySwift (5.0.0)
+  - Starscream (3.1.1)
+
+DEPENDENCIES:
+  - Amplify
+  - AmplifyPlugins/AWSAPIPlugin
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AmplifyPlugins
+    - AppSyncRealTimeClient
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPluginsCore
+    - ReachabilitySwift
+    - Starscream
+
+SPEC CHECKSUMS:
+  Amplify: 7974e4da6a0fcae8b79afd4fc38e78d1b54a6ea7
+  AmplifyPlugins: d16bc2e4d3bae00699b476f1a2d045b7851c583c
+  AppSyncRealTimeClient: 879b9fa3ce3f335450ca06e0def279fa90af9e76
+  AWSAuthCore: d350688ae52b9644a0713901e436cb529dce15b7
+  AWSCognitoIdentityProvider: ae02dbb7d2f53291adbfd52e7334286abde8bb3f
+  AWSCognitoIdentityProviderASF: 3c8bb7a1f306d21d22c4429509da5cf34ef72e6d
+  AWSCore: e8cc7fd06efa211328942cc7c9f6dddbe889a115
+  AWSMobileClient: b082181b527b2f68222006fa996a2ec4d7be6386
+  AWSPluginsCore: 883d3969add07eec02d4719c1a844d0b870b2e1d
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+
+PODFILE CHECKSUM: d17fd78df357586bd56a04a1f86415a785428045
+
+COCOAPODS: 1.9.3
